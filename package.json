@@ -1,0 +1,11 @@
+{
+  "name": "vercel-redirect",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "axios": "^1.8.0",
+    "express": "^4.19.2"
+  }
+}
